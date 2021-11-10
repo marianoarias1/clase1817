@@ -1,0 +1,43 @@
+* {
+    padding: 0mm;
+    margin: 0mm;
+}
+
+
+#titulo {
+    color: #FCFBFB;
+    background-color: #181515;
+    width: 100vw;
+    font-size: 3em;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1.7;
+    font-weight: 100;
+    text-align: center;
+}
+
+.titulo-h2{
+    color: #FCFBFB;
+    background-color: #181515;
+    width: 100vw;
+    font-size: 1em;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1;
+    font-weight: 100;
+    text-align: center;
+}
+
+.parrafo{
+    margin-top: 16px;
+    font-family: 'Mohave', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.input{
+    scroll-margin-left: auto;
+}
+
+.la_fecha{
+    margin-left: auto;
+    float: right;
+}

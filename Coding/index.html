@@ -1,0 +1,187 @@
+    <html>
+
+<head>
+
+</head>
+
+<body>
+    <!-- en el body va todo lo que el usuario ve en la pagina -->
+    <header>
+        <nav>
+            <!-- el nav es un menu denavegacion y se acostumbra a poner dentro del header -->
+            <a href="https://www.google.com.ar"> voy a google</a>
+            <a href="https://m.facebook.com/"> voy a facebook</a>
+            <a href="https://mercadolibre.com.ar"> voy a mercadolibre</a>
+        </nav>
+        soy un header
+    </header><!-- el header es el encabezado de la pagina -->
+    <h1>
+        hola este es mi titulo
+    </h1>
+    <!-- titulo mas importante, solo se pone uno, se pueden poner varios pero no es recomendable -->
+    <ul>
+        <!-- esto es una lista desordenada, una lista ordenada se hace con un <ol> -->
+        <li>
+            no se que mas
+        </li>
+        <li>
+            a
+        </li>
+        <li>
+            tengo que agarrar el habito de escribir
+        </li>
+    </ul>
+    <ol>
+        <li>esta es una lista ordenada</li>
+        <li>esta es una lista ordenada2</li>
+        <li>esta es una lista ordenada3</li>
+    </ol>
+    <a href="https://www.google.com.ar" target="_blank">
+        <!-- el target te abre otra pestaña. los atributos van dentro siempre de la etiqueta de apertura-->
+        google
+    </a> <!-- alt + shift + a para abrir un comentario vacío -->
+
+    <button name="soy_un_boton" type="button">
+        <!-- esta etiqueta es para poner botones, y tiene diferentes tipos; button, reset, submit -->
+        un simple boton
+    </button>
+    <input type="text" placeholder="ingresa tu nombre">
+    <!-- tiene muchos tipos, cada uno sirve para algo y tambien tiene distintos atributos como el placeholder-->
+    <button>
+        <a href="https://www.google.com.ar" target="_blank"> un nuevo boton</a>
+    </button>
+
+    <!-- el <input> tiene muchos tipos:
+        -text: permite al usuario poner textos en un formulario, también numeros y otros caracteres
+        number: permite al usuario poner numeros (cuando por ej nos piden pone el documento en alguna pag)
+        date: despliega un calendario para que seleccionemos la fecha
+        email: valida el email, si ponemos un email incompleto (sin el .com, o sin el @) 
+        password: nos deja tipear una campro pero lo sensura, ya que es una contraseña (con js se puede cambiar para que se vea.)
+        checkbox: te permite poner un check en la pagina, permite seleccionar mas de una opcion
+        radio: te permite poner un check en una pagina, pero a diferencia del checkbox este es de unica opcion
+        placeholder: permite poner una leyenda (palabras) de fondo, para indicarle al usuario que debe poner en ese input-->
+
+    <!-- el <label> es una leyenda que acompaña al input y se le pone un for="" para que se sepa a que input esta destinado
+            y al input que este acompañando a este label se le pone in id="" y en ambos debe ir el mismo nombre -->
+
+    <label for="usuario">
+        Usuario:
+    </label>
+    <input type="text" placeholder="Ingrese su usuario" id="usuario">
+
+    <!-- el <form> nos permite poner dentro distintos formularios para mantenerlos ordenados -->
+
+    <!-- <section> nos permite tener diferentes secciones dentro de la pagina, y dentro de ellas se pueden poner <div> etc -->
+    <p>
+        <small>
+            bueno este es el parrafo con small
+            <!-- el <small> nos hace mas chiquita la letra -->
+        </small>
+    </p>
+    <p>
+        y este es el parrafo sin small
+    </p>
+    <p>
+        <strong>
+            este es un parrafo con strong
+            <!-- el <strong> nos pone la letra en negrita, la etiqueta <b> cumple la misma funcion, pero en <strong> se ponen cosas que sean mas importantes-->
+        </strong>
+    </p>
+    <!-- El textarea es un campo como el de input type text, pero nos permite escribir mucho mas -->
+    <textarea> </textarea>
+    
+    <video src=""></video>
+    
+    <input type="date"> <!-- nos genera una box que nos despliega un calendario para elegir fecha -->
+
+    <mark> es una etiqueta que te hace un texto marcado</mark> <!-- nos genera un marcado en el texto que le escribamos -->
+    
+    <select name="" id="">
+        <option value=""> opcion 1 </option>
+        <option value=""> opcion 2 </option>
+        <option value=""> opcion 3 </option>
+    </select>
+
+    <h1> Listado de cursos </h1>
+    
+    <table>
+        <tr>
+            <thead> <b> Curso </b></thead>
+            <thead> <b> Horas </b></thead>
+            <thead> <b> Horario </b></thead>
+        </tr>
+        <tr>
+            <td> CSS </td>
+            <td> 20 Horas </td>
+            <td> 16:00 </td>
+        </tr>
+        <tr>
+            <td> HTML </td>
+            <td> 15 Horas </td>
+            <td> 18:00 </td>
+        </tr>
+        <tr>
+            <td> JS </td>
+            <td> 20 Horas </td>
+            <td> 21:00 </td>
+        </tr>
+    </table>
+
+    <h1> Su pedido</h1>
+
+    <table>
+        <tr>
+            <thead> <b> Nombre Producto </b></thead>
+            <thead> <b> Precio Unitario </b></thead>
+            <thead> <b> Unidades </b></thead>
+            <thead><b> Subtotal </b></thead>
+        </tr>
+        <tr>
+            <td> Reproductor MP3 (80 GB)</td>
+            <td> 192.02 </td>
+            <td> 1 </td>
+            <td> 192.02 </td>
+        </tr>
+        <tr>
+            <td> Fundas de colores</td>
+            <td> 2.50 </td>
+            <td> 5 </td>
+            <td> 12.50 </td>
+        </tr>
+        <tr>
+            <td> Reproductor de radio & control remoto</td>
+            <td> 12.99 </td>
+            <td> 1 </td>
+            <td> 12.99 </td>
+        </tr>
+        <tr>
+            <td><b> total </b></td>
+            <td> - </td>
+            <td> 7 </td>
+            <td><b> 207.51 </b></td>
+        </tr>
+    </table>
+
+    <h1> Fusion de columnas</h1>
+    <table>
+        <tr>
+            <td colspan="2"> Primera columna</td>
+        </tr>
+        <tr> 
+            <td> segunda columna</td>
+            <td> tercera columna </td>
+        </tr>
+    </table>
+    <h1> Fusion de filas</h1>
+    <table>
+        <tr>
+            <td> primera columna </td>
+            <td rowspan="2"> segunda columna</td>
+        </tr>
+        <tr>
+            <td> tercera columna </td>
+        </tr>
+    </table>
+</body>
+
+</html>

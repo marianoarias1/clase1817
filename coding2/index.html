@@ -1,0 +1,43 @@
+<html>
+<head></head>
+<body>
+    <div>
+        <form>
+            <h2>Complete los campos</h2>
+            <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            </div>
+            
+            <div>
+            <label for="superHeroe">Super Heroe Fav</label>
+            <select id="superHeroe">
+                <option>Iron Man</option>
+                <option>Capitan America</option>
+                <option>Batman</option>
+                <option>Deadpool</option>
+            </select>
+            </div>
+            
+            <label>¿Te gusta Harry Potter?</label>
+            
+            <div>
+            <label for="si">Si</label>
+            <input type="radio" id="si" name="harry"> <!-- para que no te permita checkear ambos radio hay que ponerles el mismo "name" -->
+            
+            <label for="no">No</label>
+            <input type="radio" id="no" name="harry">
+            </div>
+
+            <div>
+                <label for="descripcion">Describi como estas hoy:</label>
+                <br>
+                <textarea id="descripcion" cols="30" rows="10"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar"> <!-- en el boton submit el "value" es el nombre que va a llevar el boton -->
+
+        </form>
+    </div>
+</body>
+</html>
